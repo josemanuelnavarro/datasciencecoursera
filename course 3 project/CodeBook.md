@@ -6,32 +6,32 @@ In order of appearance, the presented variables are:
 
 ## ID variables
 
-1. subject: (numeric) an ID identifying the subject that performed the tests.
-2. activity: (factor) a factor with the label of the performed activity.
+* 1. subject: (numeric) an ID identifying the subject that performed the tests.
+* 2. activity: (factor) a factor with the label of the performed activity.
 
 ## Measured signals in time domain
 
 All these variables are numeric, ranged between -1 and 1 and measure the mean average and mean standard deviations obtained for the following measurements:
 
-3 to 8. tBodyAcc: X, Y and Z axis of the body acceleration signal.
-9 to 14. tGravityAcc: X, Y and Z axis of the gravity acceleration signal.
-15 to 20. tBodyAccJerk: X, Y and Z axis of the derivation of the body linear acceleration.
-21 to 26. tBodyGyro: X, Y and Z axis of the angular velocity.
-27 to 32. tBodyGyroJerk: X, Y and Z axis of the derivation of the angular velocity.
-33 and 34. tBodyAccMag: magnitude of the body acceleration using the Euclidean norm.
-35 and 36. tGravityAccMag: magnitude of the gravity acceleration using the Euclidean norm.
-37 and 38. tBodyAccJerkMag: magnitude of the derivation of the body acceleration using the Euclidean norm.
-39 and 40. tBodyGyroMag: magnitude of the angular velocity using the Euclidean norm.
-41 and 42. tBodyGyroJerkMag: magnitude of the derivation of the angular velocity using the Euclidean norm.
+* 3 to 8. tBodyAcc: X, Y and Z axis of the body acceleration signal.
+* 9 to 14. tGravityAcc: X, Y and Z axis of the gravity acceleration signal.
+* 15 to 20. tBodyAccJerk: X, Y and Z axis of the derivation of the body linear acceleration.
+* 21 to 26. tBodyGyro: X, Y and Z axis of the angular velocity.
+* 27 to 32. tBodyGyroJerk: X, Y and Z axis of the derivation of the angular velocity.
+* 33 and 34. tBodyAccMag: magnitude of the body acceleration using the Euclidean norm.
+* 35 and 36. tGravityAccMag: magnitude of the gravity acceleration using the Euclidean norm.
+* 37 and 38. tBodyAccJerkMag: magnitude of the derivation of the body acceleration using the Euclidean norm.
+* 39 and 40. tBodyGyroMag: magnitude of the angular velocity using the Euclidean norm.
+* 41 and 42. tBodyGyroJerkMag: magnitude of the derivation of the angular velocity using the Euclidean norm.
 
 ## Measured signals in frequency domain
 
 All these variables are numeric, ranged between -1 and 1 and measure the mean average and mean standard deviations obtained for the following measurements:
 
-43 to 48. fBodyAcc: X, Y and Z axis of the fast fourier transform of the body acceleration signal.
-49 to 54. fBodyAccJerk: X, Y and Z axis of the fast fourier transform of the derivation of the body acceleration signal.
-55 to 60. fBodyGyro: X, Y and Z axis of the fast fourier transform of the angular velocity signal.
-61 and 62. fBodyAccMag:  magnitude of the fast fourier transform of the body acceleration using the Euclidean norm.
-63 and 64. fBodyBodyAccJerkMag: magnitude of the fast fourier transform of the derivation of a body acceleration (not explained in the original code book).
-65 and 66. fBodyBodyGyroMag: magnitude of the fast fourier transform of an angular velocity (not explained in the original code book).
-67 and 68. fBodyBodyGyroJerkMag: magnitude of the fast fourier transform of the derivation of an angular velocity (not explained in the original code book).
+* 43 to 48. fBodyAcc: X, Y and Z axis of the fast fourier transform of the body acceleration signal.
+* 49 to 54. fBodyAccJerk: X, Y and Z axis of the fast fourier transform of the derivation of the body acceleration signal.
+* 55 to 60. fBodyGyro: X, Y and Z axis of the fast fourier transform of the angular velocity signal.
+* 61 and 62. fBodyAccMag:  magnitude of the fast fourier transform of the body acceleration using the Euclidean norm.
+* 63 and 64. fBodyBodyAccJerkMag: magnitude of the fast fourier transform of the derivation of a body acceleration (not explained in the original code book).
+* 65 and 66. fBodyBodyGyroMag: magnitude of the fast fourier transform of an angular velocity (not explained in the original code book).
+* 67 and 68. fBodyBodyGyroJerkMag: magnitude of the fast fourier transform of the derivation of an angular velocity (not explained in the original code book).
